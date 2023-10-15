@@ -1,6 +1,6 @@
 import requests
 def getNews():
-    API_KEY = 'c3e7af1ee63448b7a366cb8e15e9a8fb'
+    API_KEY = 'Your NewsAPI'
     url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=" + API_KEY
     news = requests.get(url).json()
     articles = news["articles"]
