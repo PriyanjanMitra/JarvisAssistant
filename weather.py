@@ -2,7 +2,7 @@ import datetime as dt
 import requests
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
-API_KEY = "6143db6b8b102b44ab3e0b1a866d2443"
+API_KEY = "Your OpenWeatherAPI"
 CITY = "New Delhi"
 url = BASE_URL + "appid=" + API_KEY + "&q=" + CITY
 response = requests.get(url).json()
