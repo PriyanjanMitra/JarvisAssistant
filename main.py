@@ -41,14 +41,9 @@ if __name__ == '__main__':
                  ['Gmail', 'https://mail.google.com/mail/u/0/#inbox'],
                  ['Google Drive', 'https://drive.google.com/drive/u/0/my-drive'],
                  ['Amazon', 'https://www.amazon.in/'], ['Bard', 'https://bard.google.com/chat'],
-                 ['Swiggy', 'https://www.swiggy.com/'], ['Chat G.P.T', 'https://chat.openai.com/'],
-                 ['Times Of India', 'https://timesofindia.indiatimes.com/?from=mdr'],
-                 ['Library', 'https://libgen.li/'], ['Internet Archive', 'https://archive.org/'],
-                 ['DTU', 'http://dtu.ac.in/'], ['Python Website', 'https://www.python.org/'],
+                 ['Chat G.P.T', 'https://chat.openai.com/'], ['Internet Archive', 'https://archive.org/'],
                  ['Microsoft', 'https://www.microsoft.com/en-in/'],
-                 ['Colab', 'https://colab.research.google.com/?utm_source=scs-index'],
-                 ['SBI', 'https://www.onlinesbi.sbi/'], ['Threads', 'https://www.threads.net/login'],
-                 ['Simple Flying', 'https://simpleflying.com/'], ['Chess', 'https://www.chess.com/home']]
+                 ['Colab', 'https://colab.research.google.com/?utm_source=scs-index']]
         for site in sites:
             if f"Open {site[0]}".lower() in query.lower():
                 speaker.Speak(f"Opening {site[0]}")
@@ -56,32 +51,22 @@ if __name__ == '__main__':
         apps = [['Word', 'C:/Program Files/Microsoft Office/root/Office16/WINWORD.EXE'],
                 ['PowerPoint', 'C:/Program Files/Microsoft Office/root/Office16/POWERPNT.EXE'],
                 ['Excel', 'C:/Program Files/Microsoft Office/root/Office16/EXCEL.EXE'],
-                ['Spotify', 'C:/Users/priya/AppData/Local/Microsoft/WindowsApps/Spotify.exe'],
-                ['Instagram', 'C:/Users/priya/OneDrive/Desktop/Shortcuts/Instagram - Shortcut.lnk'],
-                ['Whatsapp', 'C:/Users/priya/OneDrive/Desktop/Shortcuts/WhatsApp - Shortcut.lnk'],
+                ['Spotify', 'C:/Users/%user%/AppData/Local/Microsoft/WindowsApps/Spotify.exe'],
+                ['Instagram', 'C:/Users/%user%/OneDrive/Desktop/Shortcuts/Instagram - Shortcut.lnk'],
+                ['Whatsapp', 'C:/Users/%user%/OneDrive/Desktop/Shortcuts/WhatsApp - Shortcut.lnk'],
                 ['Telegram',
                  'C:/Program Files/WindowsApps/TelegramMessengerLLP.TelegramDesktop_4.9.7.0_x64__t4vj0pshhgkwm'
                  '/Telegram.exe'],
-                ['Calculator', 'C:/Users/priya/OneDrive/Desktop/Shortcuts/Calculator - Shortcut.lnk'],
+                ['Calculator', 'C:/Users/%user%/OneDrive/Desktop/Shortcuts/Calculator - Shortcut.lnk'],
                 ['PyCharm', 'D:/PyCharm 2023.2.2/bin/pycharm64.exe'],
-                ['VS Code', 'C:/Users/priya/AppData/Local/Programs/Microsoft VS Code/Code.exe'],
-                ['OMEN',
-                 'C:/Users/priya/AppData/Local/Microsoft/WindowsApps/AD2F1837.OMENCommandCenter_v10z8vjag6ke6/ogh.exe'],
+                ['VS Code', 'C:/Users/%user%/AppData/Local/Programs/Microsoft VS Code/Code.exe'],
                 ['Brave', 'C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe'],
                 ['Edge', 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'],
-                ['Settings', 'C:/Users/priya/OneDrive/Desktop/Shortcuts/Settings - Shortcut.lnk'],
-                ['Epic Games',
-                 'C:/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe'],
-                ['Vortex', 'D:/Games/Vortex/Vortex.exe'], ['Loot', 'D:/Games/LOOT/LOOT.exe'],
-                ['Roblox',
-                 'C:/Users/priya/AppData/Local/Roblox/Versions/version-510663c9d33e4fd8/RobloxPlayerBeta.exe --app'],
-                ['Skyrim', 'D:/Games/The Elder Scrolls V - Skyrim - Legendary Edition/skse_loader.exe'],
-                ['Store', 'C:/Users/priya/OneDrive/Desktop/Shortcuts/Microsoft Store - Shortcut.lnk'],
-                ['Discord', 'C:/Users/priya/AppData/Local/Discord/Update.exe --processStart Discord.exe'],
-                ['BitTorrent', 'C:/Users/priya/AppData/Roaming/bittorrent/BitTorrent.exe'],
-                ['Solitaire', 'C:/Users/priya/OneDrive/Desktop/Shortcuts/Solitaire & Casual Games - Shortcut.lnk'],
+                ['Settings', 'C:/Users/%user%/OneDrive/Desktop/Shortcuts/Settings - Shortcut.lnk'],
+                ['Store', 'C:/Users/%user%/OneDrive/Desktop/Shortcuts/Microsoft Store - Shortcut.lnk'],
+                ['Discord', 'C:/Users/%user%/AppData/Local/Discord/Update.exe --processStart Discord.exe'],
                 ['One Note', 'C:/Program Files/Microsoft Office/root/Office16/ONENOTE.EXE'],
-                ['Mail', 'C:/Users/priya/OneDrive/Desktop/Shortcuts/Mail - Shortcut.lnk'],
+                ['Mail', 'C:/Users/%user%/OneDrive/Desktop/Shortcuts/Mail - Shortcut.lnk'],
                 ['Explorer', 'C:/Windows/explorer.exe']]
 
         for app in apps:
