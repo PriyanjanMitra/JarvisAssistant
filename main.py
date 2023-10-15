@@ -106,7 +106,7 @@ if __name__ == '__main__':
             for i in news:
                 speaker.Speak(i)
         if "image search".lower() in query.lower():
-            API_KEY = "AIzaSyBzqIWp6jM7u-Zo3VjR819jHKnwJc9qecA"
+            API_KEY = "Your Google Custom Search API"
             SEARCH_ENGINE_ID = "76f2b5a93605e4ddc"
             search_query = query.replace("image search", '')
             url = ('https://www.googleapis.com/customsearch/v1?key=' + API_KEY + '&cx=' + SEARCH_ENGINE_ID + '&q=' +
@@ -119,7 +119,7 @@ if __name__ == '__main__':
             speaker.Speak(f"Opening Image")
             webbrowser.open(results[0]['link'])
         if "search".lower() in query.lower():
-            API_KEY = "AIzaSyBzqIWp6jM7u-Zo3VjR819jHKnwJc9qecA"
+            API_KEY = "Your Google Custom Search API"
             SEARCH_ENGINE_ID = "76f2b5a93605e4ddc"
             search_query = query.replace("search", '')
             url = ('https://www.googleapis.com/customsearch/v1?key=' + API_KEY + '&cx=' + SEARCH_ENGINE_ID + '&q=' +
@@ -130,7 +130,7 @@ if __name__ == '__main__':
             if 'items' in results:
                 webbrowser.open(results['items'][0]['link'])
         if "search pdf".lower() in query.lower():
-            API_KEY = "AIzaSyBzqIWp6jM7u-Zo3VjR819jHKnwJc9qecA"
+            API_KEY = "Your Google Custom Search API"
             SEARCH_ENGINE_ID = "76f2b5a93605e4ddc"
             search_query = query.replace('search pdf', '')
             url = ('https://www.googleapis.com/customsearch/v1?key=' + API_KEY + '&cx=' + SEARCH_ENGINE_ID + '&q=' +
