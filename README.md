@@ -1,2 +1,2 @@
 # JarvisAssistant
-A basic Desktop Assistant
+A basic Desktop Assistant for Windows
