@@ -6,7 +6,9 @@
 
 It is a simple desktop assistant designed for Windows, developed using the Python programming language. It utilizes various modules such as speech_recognition, webbrowser, datetime, csv, weather, news, and win32com.client. The project is licensed under the MIT license.
 
-# Modules used in this project
+## Modules
+The following modules to create JarvisAssistant:
+
 
 🌻 speech_recognition:
    - Function: This module allows Python to recognize and process speech input from the user.
@@ -32,6 +34,12 @@ It is a simple desktop assistant designed for Windows, developed using the Pytho
    - Function: This module provides various functions to interact with web resources.
    - Role: It allows Python programs to communicate with web servers and retrieve data or perform actions, making it a fundamental tool for web-related tasks in Python programming.
 
+## Functions
+[JarvisAssistant](https://github.com/PriyanjanMitra/JarvisAssistant/blob/main/main.py) draws inspiration from Tony Stark's creation, Jarvis, an AI model developed to combat evil forces.
+* Set Timer
+* Search In Google
+* Tell A Weather In Given city
+* Convert Speech To Text
 
 
 
