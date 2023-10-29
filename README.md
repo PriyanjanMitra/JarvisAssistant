@@ -1,4 +1,4 @@
-# JarvisAssistant
+# JarvisAssistant 🤖
 ![GitHub](https://img.shields.io/github/license/PriyanjanMitra/JarvisAssistant?logo=Github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/PriyanjanMitra/JarvisAssistant)
 ![GitHub top language](https://img.shields.io/github/languages/top/PriyanjanMitra/JarvisAssistant)
@@ -6,7 +6,7 @@
 
 It is a simple desktop assistant designed for Windows, developed using the Python programming language. It utilizes various modules such as speech_recognition, webbrowser, datetime, csv, weather, news, and win32com.client. The project is licensed under the MIT license.
 
-## Modules
+## Modules 🗐
 The following modules to create JarvisAssistant:
 
 
@@ -34,7 +34,7 @@ The following modules to create JarvisAssistant:
    - Function: This module provides various functions to interact with web resources.
    - Role: It allows Python programs to communicate with web servers and retrieve data or perform actions, making it a fundamental tool for web-related tasks in Python programming.
 
-## Functions
+## Functions 🏺
 [JarvisAssistant](https://github.com/PriyanjanMitra/JarvisAssistant/blob/main/main.py) draws inspiration from Tony Stark's creation, Jarvis, an AI model developed to combat evil forces.
 * Set Timer
 * Search In Google
