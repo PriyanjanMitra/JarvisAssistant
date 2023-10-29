@@ -38,7 +38,7 @@ The following modules to create JarvisAssistant:
 [JarvisAssistant](https://github.com/PriyanjanMitra/JarvisAssistant/blob/main/main.py) draws inspiration from Tony Stark's creation, Jarvis, an AI model developed to combat evil forces.
 * Set Timer
 * Search In Google
-* Tell A Weather In Given city
+* Tell A Weather In Given City
 * Convert Speech To Text
 
 
