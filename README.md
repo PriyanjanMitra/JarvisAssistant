@@ -1,7 +1,8 @@
 # JarvisAssistant 🤖
 ![GitHub](https://img.shields.io/github/license/PriyanjanMitra/JarvisAssistant?logo=Github)
-![GitHub last commit](https://img.shields.io/github/last-commit/PriyanjanMitra/JarvisAssistant)
-![GitHub top language](https://img.shields.io/github/languages/top/PriyanjanMitra/JarvisAssistant)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/PriyanjanMitra/JarvisAssistant)
+![GitHub Top Language](https://img.shields.io/github/languages/top/PriyanjanMitra/JarvisAssistant)
+[![GitHub Repo Contributors](https://img.shields.io/github/contributors-anon/PriyanjanMitra/JarvisAssistant?style=flat&logo=github&logoColor=whitesmoke&label=Contributors)](https://github.com/EbookFoundation/free-programming-books/graphs/contributors) 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)&#160;
 
 
