@@ -2,6 +2,7 @@
 ![GitHub](https://img.shields.io/github/license/PriyanjanMitra/JarvisAssistant?logo=Github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/PriyanjanMitra/JarvisAssistant)
 ![GitHub top language](https://img.shields.io/github/languages/top/PriyanjanMitra/JarvisAssistant)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)&#160;
 
 
 It is a simple desktop assistant designed for Windows, developed using the Python programming language. It utilizes various modules such as speech_recognition, webbrowser, datetime, csv, weather, news, and win32com.client. The project is licensed under the MIT license.
